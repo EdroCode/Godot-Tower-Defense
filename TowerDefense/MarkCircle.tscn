@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TS_DEMO (Update 01)/Sprite-0001.png" type="Texture" id=1]
+
+[node name="MarkCircle" type="Node2D"]
+position = Vector2( 0, -48 )
+
+[node name="Sprite-0001" type="Sprite" parent="."]
+position = Vector2( 0, -32 )
+z_index = -5
+texture = ExtResource( 1 )
